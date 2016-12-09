@@ -1,5 +1,5 @@
-var nom = prompt("Quel est votre nom ?");
-var prenom = prompt("Quel est votre prenom ?");
-var ville = prompt("Dans quelle ville habitez vous ?");
-
-alert(" nom: "+nom+"\n prenom: "+prenom+"\n ville: "+ville);
+var age = prompt("Quel age avez vous ?");
+var sexe = prompt("Fille ou garçon ?");
+var nationnalite = prompt("Votre nationnalité ?");
+age >= 18 ? age = "majeur" : age = "mineure";
+alert(" vous etes un/une "+sexe+" "+age+" "+nationnalite);
