@@ -1,5 +1,2 @@
-var nom = "Gizzmo";
-var prenom = "Bob";
-var ville = "Clermont-Ferrand";
-
-alert(" nom: "+nom+"\n prenom: "+prenom+"\n ville: "+ville);
+var prenom = prompt("Veuillez saisir votre prenom");
+alert("Bonjour "+prenom);
