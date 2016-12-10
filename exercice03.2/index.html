@@ -14,5 +14,21 @@
   <div class="color red" ></div>
   <div class="color blue" ></div>
 </div>
+  <script>
+    var dive = document.getElementsByTagName("div");
+    var div1 = document.getElementById("texte");
+
+    dive[3].addEventListener("click", function(){
+      div1.style.color = "red";
+    }, true);
+    
+    dive[2].addEventListener("click", function(){
+      div1.style.color = "green";
+    }, true);
+    
+    dive[1].addEventListener("click", function(){
+      div1.style.color = "blue";
+    }, true);
+  </script>
 </body>
 </html>
