@@ -12,10 +12,10 @@
   </div>
   <script>
      var ancre = document.getElementsByTagName("a");
-     var texte = document.getElementsById("texte");
+     var texte = document.getElementById("texte");
     
     ancre[0].addEventListener("click", function(){
-      texte.style.display = "normal";
+      texte.style.display = "block";
     }, false);
     ancre[1].addEventListener("click", function(){
       texte.style.display = "none";
