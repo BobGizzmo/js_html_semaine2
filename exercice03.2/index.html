@@ -16,18 +16,17 @@
 </div>
   <script>
     var dive = document.getElementsByTagName("div");
-    var div1 = document.getElementById("texte");
-
+    
     dive[3].addEventListener("click", function(){
-      div1.style.color = "red";
+      dive[0].style.color = "red";
     }, true);
     
     dive[2].addEventListener("click", function(){
-      div1.style.color = "green";
+      dive[0].style.color = "green";
     }, true);
     
-    dive[1].addEventListener("click", function(){
-      div1.style.color = "blue";
+    dive[4].addEventListener("click", function(){
+      dive[0].style.color = "blue";
     }, true);
   </script>
 </body>
